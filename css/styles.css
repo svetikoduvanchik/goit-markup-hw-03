@@ -27,6 +27,8 @@ body {
 
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+
+    margin-right: 76px
 }
 
 /* .link address {
@@ -50,6 +52,11 @@ ul {
     text-decoration: none;
     color: #2E2F42;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    padding: 0 15px;
+}
 
 .header-nav {
     display: flex;
@@ -63,6 +70,8 @@ ul {
 .header-list {
     display: flex;
     margin-left: 76px;
+    /* margin-right: 0;
+    gap: 40px */
 }
 
 /* .header-list .header-ithem:not(:last-child) {
@@ -134,6 +143,11 @@ oder */
     padding-bottom: 24px;
 }
 
+.header-addres {
+    gap: 40px;
+    margin-right: 0;
+}
+
 .link :hover, 
 .link :focus {
     color: #404BBF;
@@ -148,24 +162,26 @@ padding-bottom: 120px;
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1152px;
-    padding-left: 12px;
-    padding-right: 12px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /*Hero*/
 
 .hero-subject {
     font-size: 56px;   
     font-weight: 700;
-    background-color:#2e2f42;
+    background-color: #2e2f42;
     line-height: 1.07;
     /* text-align: center; */
     letter-spacing: 0.02em;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 48px;
     /* padding-top: 188px;
     padding-bottom: 292px; */
+    padding: 188px 0;
+    max-width: 496px;
 }
 
 .hero {
@@ -174,19 +190,21 @@ padding-bottom: 120px;
 }
 
 .hero-btn {
-    cursor: pointer;
+    display: block;
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
     border-radius: 4px;
     gap: 10px;
-    /* min-width: 169px; */
-
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .hero-btn:hover,
@@ -232,13 +250,15 @@ h2 {
 }
 .feature-list {
     display: flex;
+    gap: 24px;
 
     padding-top: 24px;
     padding-bottom: 24px;
-    width: calc(100% - 24px)/4;
+    width: calc((100% - 72px) / 4);
 }
 .feature-subtitle {
     display: flex;
+    margin-bottom: 8px;
 }
 .feature-text {
     display: flex;
@@ -310,9 +330,25 @@ h2 {
 .team-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 
-    width: calc(100% - 24px)/4;
+    /* width: calc(100% - 24px)/4; */
+    width: calc((100% - 72px) / 4);
 }
+.person-one {
+    padding: 32px 0;
+}
+.person-two {
+    padding: 32px 0;
+}
+.person-three {
+    padding: 32px 0;
+}
+.person-four {
+    padding: 32px 0;
+}
+
 
 .team-image {
     display: block;
@@ -331,8 +367,10 @@ h2 {
     padding-top: 32px;
 
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 32px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -403,12 +441,51 @@ h2 {
 
     flex-wrap: wrap;
     justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
     display: block;
 
     width: calc(100% - 24px)/6;
+}
+
+.portfolio-one {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+.portfolio-two {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+.portfolio-three {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+.portfolio-four {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+.portfolio-five {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+} 
+.portfolio-six {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-image {
@@ -418,8 +495,9 @@ h2 {
 .footer {
     background-color:#2E2F42;
 
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    /* padding-top: 101.5px; */
+    /* padding-bottom: 100px; */
+    padding: 100px 0
 }
 
 .footer-text {
@@ -435,6 +513,11 @@ h2 {
     /* padding-top: 140px; */
     /* padding-bottom: 100px; */
 }
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-logo {
     color: #F4F4FD;
 }
