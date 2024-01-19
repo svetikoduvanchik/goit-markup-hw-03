@@ -28,6 +28,7 @@ body {
     padding-top: 25.5px;
     padding-bottom: 25.5px;
 
+    gap: 40px;
     margin-right: 76px
 }
 
@@ -53,12 +54,12 @@ ul {
     text-decoration: none;
     color: #2E2F42;
 }
-/* .header {
+.header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
+    /* width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-   } */
+    padding: 0 15px; */
+   }
 
 .header-nav {
     display: flex;
@@ -73,7 +74,7 @@ ul {
 .header-navigetion {
     display: flex;
     align-items: center;
-
+    gap: 40px;
     margin: 0 auto;
 }
 .header-list {
@@ -201,13 +202,13 @@ padding-bottom: 120px;
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 188px 0 0;
+    padding: 188px 0 188px;
     align-items: center;
     margin:auto 0;
 }
 .main-hero {
     display: block;
-    padding: 188px 0;
+    padding: 188px 0 188px;
     /* margin: auto 0; */
     /* padding-bottom: 292px; */
 
