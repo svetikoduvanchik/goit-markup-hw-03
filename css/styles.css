@@ -56,7 +56,7 @@ ul {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -143,7 +143,7 @@ oder */
 
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .header-addres {
@@ -190,9 +190,10 @@ padding-bottom: 120px;
 .hero {
     background-color: #2e2f42;
     text-align: center;
+    padding: 188px 0;
 }
 .main-hero {
-    padding: 188px 0
+    /* padding: 188px 0; */
 }
 
 .hero-btn {
@@ -261,6 +262,8 @@ h2 {
 
     padding-top: 24px;
     padding-bottom: 24px;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
     /* width: calc((100% - 72px) / 4); */
 }
 .feature-subtitle {
@@ -350,21 +353,25 @@ h2 {
     padding: 32px 0;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 .person-two {
     padding: 32px 0;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 .person-three {
     padding: 32px 0;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 .person-four {
     padding: 32px 0;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -475,36 +482,42 @@ h2 {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-two {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-three {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-four {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-five {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 } 
 .portfolio-six {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image {
