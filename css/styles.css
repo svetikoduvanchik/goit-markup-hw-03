@@ -41,8 +41,6 @@ body {
 /*Шапка сайта.Навігація*/
 ul {
     list-style: none;
-    /* margin-top: 0;
-    margin-bottom: 0; */
     padding-left: 0;
     margin: 0 auto;
 }
@@ -67,7 +65,7 @@ ul {
         margin: 0 auto;
         padding: 0 15px;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, {
 margin: 0;
 }
 .header-navigetion {
@@ -220,7 +218,7 @@ padding-bottom: 120px;
 .p {
     color:#434455;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;margin: 0;
 }
 
 .feature-ithem {
@@ -301,22 +299,17 @@ padding-bottom: 120px;
 
 .team-item {
     display: block;
-    
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     margin: 0;
     border-radius: 0px 0px 4px 4px;
-    /* gap: 24px; */
-}
+    /* width: calc((100% - 72px) / 4); */
+}    
 
 .team-list {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     gap: 24px;
-    /* border-radius: 0px 0px 4px 4px; */
-
-    /* width: calc(100% - 24px)/4; */
     /* width: calc((100% - 72px) / 4); */
 }
 
@@ -337,8 +330,6 @@ padding-bottom: 120px;
 }
 
 .team-name {
-    /* display: inline; */
-  
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
@@ -349,8 +340,8 @@ padding-bottom: 120px;
     /* align-items: center; */
     gap: 32px;
     text-align: center;
-    margin-bottom: 8px;
     margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .team-text {
